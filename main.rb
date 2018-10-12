@@ -139,7 +139,7 @@ class Arboln
 		end
 	end 
 
-	def changeRaiz(raiz)
+	def changeRaiz(raiz) # se realiza el proceso para la reasignacion de la variable @raiz al nuevo nodo
 		if raiz.hizq != nil #si tiene hizq cambio los enlaces
 			@raiz = raiz.hizq
 
@@ -211,7 +211,6 @@ n.insertar(9,8)
 n.insertar(10,8)
 n.insertar(11,8)
 n.mostrar()
-puts "----------"
 n.eliminarPadre(7)
 puts "--------------"
 n.mostrar()
